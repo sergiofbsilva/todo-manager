@@ -4,9 +4,13 @@ define([
 ], function(Backbone, TodoModel) {
 	return Backbone.Collection.extend({
 		
-		url: "/api/todo-manager/todos",
+		url: "../api/todo-manager/todos",
 		
-		model: TodoModel
+		model: TodoModel,
+		
+		parse: function(data) {
+			return data.todos;
+		}
 	    
 	});
 });

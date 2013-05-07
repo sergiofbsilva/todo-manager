@@ -8,8 +8,10 @@
 		<version>2.0-SNAPSHOT</version>
 		<relativePath></relativePath>
 	</parent>
+	
 	<groupId>pt.ist</groupId>
 	<artifactId>todo-manager</artifactId>
+	<version>1.0-SNAPSHOT</version>
 	<name>Todo Manager</name>
 
 	<properties>

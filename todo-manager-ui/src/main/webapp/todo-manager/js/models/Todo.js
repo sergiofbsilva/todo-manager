@@ -3,7 +3,7 @@ define([
 ], function(Backbone) {
 	return Backbone.Model.extend({
 
-		urlRoot : "/api/todo-manager/todos"
+		urlRoot : "../api/todo-manager/todos"
 
 	});
 });

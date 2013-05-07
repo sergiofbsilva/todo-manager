@@ -21,7 +21,7 @@ define([
     	controller: {
 
     		showHome : function() {
-    			require(['collections/Todo', 'views/Home'], function(TodoCollection, HomeView) {
+    			require(['views/Home'], function(HomeView) {
                     console.log(ClientFactory);
                     var todoCollection = ClientFactory.TodoCollection;
                     todoCollection.fetch({ success : function() {

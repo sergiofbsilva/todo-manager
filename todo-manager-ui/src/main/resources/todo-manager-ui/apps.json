@@ -1,0 +1,7 @@
+{"apps" : [{
+"title" :  {"pt-PT" : "Gestão de Afazeres", "en-GB" : "Todo Manager"},
+"description" : {"pt-PT" : "Gestão de Afazeres", "en-GB" : "Menu Manager"},
+"accessExpression" : "anyone",
+"path" : "todo-manager/",
+"functionalities" : []
+}]}
