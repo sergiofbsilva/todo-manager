@@ -27,7 +27,7 @@ It will also include require.js plugins `text` and `i18n`.
 
 ##Bankai Project Archetype
 
-This is a maven archetype that scaffold a bankai project structure
+This is a maven archetype that scaffold a bankai project structure [this is a link](#bankai-repository)
 
     mvn archetype:generate -DarchetypeGroupId=pt.ist -DarchetypeArtifactId=bankai-project-archetype
     
